@@ -9,8 +9,6 @@ if(!require(randomForest)) install.packages("randomForest")
 #Download data from Kaggle.com
 #"https://www.kaggle.com/mylesoneill/world-university-rankings/download"
 
-url <- "https://github.com/RiyaMichael/Harvard-Capstone-Project.git"
-download.file(url, "UniData.csv")
 
 #Aim
 #To create a prediction model for the universities of the world, that will predict the score of a given university after taking into consideration various parameters/ variables.
